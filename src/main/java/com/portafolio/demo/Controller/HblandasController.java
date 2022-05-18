@@ -15,7 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins = "https://portafolio-4a0f1.web.app", maxAge = 3600)
+/*@CrossOrigin(origins = "https://portafolio-4a0f1.web.app", maxAge = 3600)*/
+@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
 @RestController
 public class HblandasController {
     @Autowired
