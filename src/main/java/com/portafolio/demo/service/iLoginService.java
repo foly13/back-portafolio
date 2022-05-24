@@ -10,12 +10,4 @@ public interface iLoginService {
      public void borrarLogin (Long id);
      public Login buscarLogin (Long id);
      public Login editarLogin(Login log);
-     
-    /*public List<Login> getUsuarios();
-
-    public void eliminar(Long id);
-
-    public void registrar(Login log);
-
-    public Login obtenerUsuarioPorCredenciales(Login log);*/
 }
